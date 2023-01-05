@@ -1,0 +1,179 @@
+:root{
+    background-color:rgb(230, 194, 125)
+}
+
+li{
+    padding-bottom: 3px;
+    color:white;
+    text-shadow:1.5px 1px 3px black;
+    list-style-type: none;
+}
+
+p{
+    color: rgb(172, 83, 186);
+    text-shadow: .5px .5px rgb(245, 244, 242);
+    text-align: center;
+    font-size: xx-large;
+    font-family: sans-serif
+}
+
+h2{
+    font-family: sans-serif;
+    margin-bottom: .5rem;
+
+}
+
+input{
+    text-align: center;
+}
+
+.container{
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+/* Review changes needed  */
+button{
+    display:inline-block;
+    font-family: sans-serif;
+    background-color:brown;
+    border-radius: 10px;
+    border:3px double #cccc;
+    color:#eeeee;
+    text-align:center;
+    font-size:15px;
+    padding: 20px;
+    width: 200px;
+    margin-top: 3px;
+}
+/* Review changes needed */
+button:hover{
+    box-shadow: 4px 3px 6px #445obd
+}
+
+#top{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Review changes needed */
+#timer{
+    font-family: sans-serif;
+    background-color: #5a69f0;
+    color: #eeeeee;
+    font-size: x-large;
+    text-shadow: .5px .5px black;
+    text-align:center;
+}
+/* Review changes needed */
+#quiz{
+    display: none;
+}
+/* Review changes needed */
+#result{
+    display: none;
+}
+/* Review changes neede */
+#gameover{
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+/* Review changes needed */
+#highScore{
+    height: 1.5rem;
+    border:groove 2px;
+}
+/* Review changes needed */
+#high-scorePage{
+    display: none;
+    width:50%;
+    border-color:silver;
+    border-bottom-style:groove;
+    padding-bottom:3rem;
+    background:lightsteelblue;
+}
+/* Review changes needed */
+#highscore-header{
+    display:flex;
+    justify-content: space-around;
+    border-bottom-style:outlet;
+    margin-bottom: 5rem;
+    background-color:#5e6df1;
+    color:#eeeeee;
+    font-family:sans-serif;
+}
+/* Review changes needed */
+#highScoreContainer{
+    height:100%;
+    width:100%;
+    display:none;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+/* Review changes needed */
+#initials{
+    margin:5rem;
+    heigt:1.75rem;
+}
+/* Review changes needed */
+#highscore-intials{
+    display:inline-block;
+    padding: left 9.5em;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+/* Review changes Needed */
+#highscore-score{
+    float:right;
+    padding: right 8.75em;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+/* Review changes needed */
+#finalScore{
+    padding: bottom 0.5rem;
+    font-size:x-large;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+/* Review changes needed */
+#endGameBtns{
+    display:none
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -When the start button is clicked, a timer starts and a question is presented */ 
+
+/* -When a question is answered, another question is presented */
+
+/* -When a question is answered incorrectly, time is subtracted from the clock */
+
+/* -When all questions are answered or the timer reaches 0, the game is over */
+
+/* -When the game is over, the user can save their initials and score. */
