@@ -94,7 +94,7 @@ var quizQuestions = [{
 
 var currentQuestionIndex = 0;
 
-var timeLeft = 76;
+var timeLeft = 30;
 
 var timerInterval;
 
