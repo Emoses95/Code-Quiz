@@ -34,61 +34,60 @@ var buttonD = document.getElementById("d");
 
 
 var quizQuestions = [{
-    question: "How many elements can you apply an 'ID' attribute to?",
-    choiceA: "As many as you want",
-    choiceB: "3",
-    choiceC: "1",
-    choiceD: "128",
-    correctAnswer: "c"
-},
+    question: "What do we use to get an  ordered list?",
+    choiceA: "h1 with open and ending carrots",
+    choiceB: "ul with open and ending carrots",
+    choiceC: "ol with open and ending carrots",
+    choiceD: "ul",
+    correctAnswer: "c"},
 
   {
-    question: "What does DOM stand for?",
-    choiceA: "Document Object Model",
-    choiceB: "Display Object Management",
-    choiceC: "Digital Ordinance Model",
-    choiceD: "Desktop Oriented Mode",
+    question: "What does html stand for?",
+    choiceA: "Hypertext Markup Language",
+    choiceB: "Hypercontent Makeup Lango",
+    choiceC: "Highperformance Mode Leafhopper",
+    choiceD: "Hypertext Markup Langauge",
     correctAnswer: "a"},
 
    {
-    question: "What is used primarily to add styling to a web page?",
-    choiceA: "HTML",
-    choiceB: "CSS",
-    choiceC: "Python",
-    choiceD: "React.js",
-    correctAnswer: "b"},
+    question: "How can a datatype be declared to be a constant type?",
+    choiceA: "const",
+    choiceB: "var",
+    choiceC: "let",
+    choiceD: "con",
+    correctAnswer: "a"},
 
     {
-    question: "What HTML tags are JavaScript code wrapped in?",
-    choiceA: "&lt;div&gt;",
-    choiceB: "&lt;link&gt;",
-    choiceC: "&lt;head&gt;",
-    choiceD: "&lt;script&gt;",
-    correctAnswer: "d"},
-
-    {
-    question: "When is localStorage data cleared?",
-    choiceA: "No expiration time",
-    choiceB: "On page reload",
-    choiceC: "On browser close",
-    choiceD: "On computer restart",
-    correctAnswer: "a"},  
-
-    {
-    question: "What does WWW stand for?",
-    choiceA: "Web World Workings",
-    choiceB: "Weak Winter Wind",
-    choiceC: "World Wide Web",
-    choiceD: "Wendy Wants Waffles",
+    question: "Which one of the following tags is used to insert graphics in the webpage?",
+    choiceA: "image with open and ending carrots",
+    choiceB: "images with open and ending carrots",
+    choiceC: "img with open and ending carrots",
+    choiceD: "graphics with open and ending carrots",
     correctAnswer: "c"},
 
     {
-    question: "What HTML attribute references an external JavaScript file?",
-    choiceA: "href",
-    choiceB: "src",
+    question: "Which of the following CSS selectors are used to specify a group of elements?",
+    choiceA: "tag",
+    choiceB: "id",
     choiceC: "class",
-    choiceD: "index",
+    choiceD: "both class and tag",
+    correctAnswer: "c"},  
+
+    {
+    question: "Which of the following CSS selectors is used to specify a rule to bind a particular unique element?",
+    choiceA: "tag",
+    choiceB: "id",
+    choiceC: "class",
+    choiceD: "both class and tag",
     correctAnswer: "b"},
+
+    {
+    question: "Which of the following keywords is used to define a variable in Javascript?",
+    choiceA: "var",
+    choiceB: "let",
+    choiceC: "Both A and B",
+    choiceD: "None of the above",
+    correctAnswer: "c"},
     ];
 
  var finalQuestionIndex = quizQuestions.length;
